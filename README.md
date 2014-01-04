@@ -5,6 +5,6 @@ Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to configure
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-https://github.com/aobuitrago/setup.git
+git clone https://github.com/aobuitrago/setup.git
 ./setup/setup.sh
 ```
