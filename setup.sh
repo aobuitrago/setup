@@ -50,5 +50,9 @@ ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
+ln -sb dotfiles/.vimrc .
 ln -sf dotfiles/.emacs.d .
 ln -sf dotfiles/.vim .
+
+vim +BundleInstall
+#After the script has finish you will be in a vim screen installing all plugins. When the installation is done quit vim twice.
