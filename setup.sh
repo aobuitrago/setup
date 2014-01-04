@@ -42,6 +42,9 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d.old
 fi
+if [ -d .vim/ ]; then
+	mv .vim .vim.old
+fi
 git clone https://github.com/aobuitrago/dotfiles.git
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
